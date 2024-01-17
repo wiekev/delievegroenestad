@@ -10,6 +10,14 @@ img{
     width: 375px;
 }
 
+.foto-inschrijfen{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
 header{
     background-image: url(./afbeelingen/hout1.png);
     background-position: bottom;
@@ -26,7 +34,7 @@ main{
 }
 
 h1{
-   color: yellow; 
+   color: #FFFBD4; 
    width: 375px;
    text-align: center;
    font-family: 'Patua One', serif;
@@ -51,6 +59,7 @@ h3{
     font-family: "salsa";
     margin-left: 1em;
     margin-right: 1em;
+    font-size: 23px;
 }
 
 .kader{
@@ -70,6 +79,7 @@ p{
     margin-top: 7px;
     display: flex;
     align-content: center;
+    
 }
 
 .foto-tekst img{
