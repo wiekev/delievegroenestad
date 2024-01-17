@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #D1E5CE;
+}
+
+img{
+    width: 375px;
+}
+
+header{
+    background-image: url(./afbeelingen/hout1.png);
+    background-position: bottom;
+    background-size: cover;
+    height: 10em;
+    width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    margin-bottom: 60px;
+}
+
+h1{
+   color: yellow; 
+   width: 375px;
+   text-align: center;
+   font-family: 'Patua One', serif;
+}
+
+h2{
+   margin: 1em;
+   color: #683D13;
+   font-family: "salsa";
+}
+
+h3{
+   margin: 1em;
+   color: #683D13;
+   font-family: "salsa";
+   font-size: 20px;
+}
+
+.inleiding{
+    color: #683D13;
+    text-align: center;
+    font-family: "salsa";
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.kader{
+    border-color: black;
+    border-style: solid;
+    margin: 1em;
+}
+
+p{
+    margin: 1em;
+    font-size: large;
+    color: #153a31;
+    font-family: "salsa";
+}
+
+.foto-tekst{
+    margin-top: 7px;
+    display: flex;
+    align-content: center;
+}
+
+.foto-tekst img{
+    width: 187px;
+}
+
+footer{
+    background-color: #859D7F;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Patua One', serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+}
+
+nav ul{
+   padding: 0;
+}
+
+.kalender{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
