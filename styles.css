@@ -7,7 +7,10 @@ body{
 }
 
 img{
-    width: 375px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .foto-inschrijfen{
@@ -19,10 +22,10 @@ img{
 }
 
 header{
-    background-image: url(./afbeelingen/hout1.png);
+    background-image: url(./afbeelingen/hout2.jpg);
     background-position: bottom;
     background-size: cover;
-    height: 10em;
+    height: 140px;
     width: 375px;
     display: flex;
     align-items: center;
@@ -79,7 +82,6 @@ p{
     margin-top: 7px;
     display: flex;
     align-content: center;
-    
 }
 
 .foto-tekst img{
